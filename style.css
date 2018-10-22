@@ -1,0 +1,573 @@
+body
+{
+    background-image: url('img/back.jpg');
+    width: 100%;
+    font-family: 'Bai Jamjuree', sans-serif;
+
+}
+
+.container
+{
+    margin-top:70px;
+}
+
+.sideBarTitle
+{
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+.blank
+{
+    background-image: url('img/dark.png');
+    padding: 15px;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-right: 0px;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h2
+{
+    text-align: center; 
+    font-size: 30px;
+}
+
+.formFormat
+{
+    margin-top: 30px;
+}
+
+#logBtn
+{
+    background-color: #372932;
+    border: none;
+    transition: transform 0.4s ease-in-out;
+    margin-top: 40px;
+}
+
+#logBtn:hover
+{
+    background-color: #917083b7;
+    color: white;
+    border: none;
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+#wantReg
+{
+    background-color:  #330000;
+    padding: 15px;
+    font-size: 20px;
+    margin-top: 20px;
+    height: 90px;
+    text-align: center;
+    transition: transform 0.4s ease-in-out;
+    white-space:pre-wrap;
+    border: none;
+}
+
+#wantReg:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#552222;
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+#description
+{
+    margin-top: 50px;
+    background-color:  #ccccb3;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.Regblank
+{
+    min-height: 540px;
+    background-image: url('img/dark.png');
+    padding: 15px;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 25px;
+    margin-right: 0px;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-bottom: 60px;
+}
+
+#regBtn,
+#returnBtn
+{
+    
+    margin-top: 30px;
+    height: 60px;
+    background-color:  #330000;
+    padding: 15px;
+    font-size: 20px;
+    transition: transform 0.4s ease-in-out;
+    border: none;
+    margin-bottom: 30px;
+    text-align: center;
+
+}
+
+#regBtn:hover,
+#returnBtn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#552222;
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+.navbar-header
+{
+    text-align: center;
+}
+
+#titleMainMenu
+{
+    color: #d9d9d9;
+    text-align: center;
+    
+}
+
+#mainMenu
+{
+    background-image: url('img/dark.png');
+    padding: 15px;
+    width: 100%;
+    height: 450px;
+    font-size: 50px;
+    margin-right: 0px;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-bottom: 20px;
+}
+
+
+#mainMenuIncomeBtn
+{
+    background-color:   #b3b300;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+    transition: transform 0.4s ease-in-out;  
+}
+
+#mainMenuIncomeBtn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    background-color:#cccc0a;;
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#mainMenuExpenseBtn
+{
+    background-color: #eb8f05;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+    transition: transform 0.4s ease-in-out;
+}
+#mainMenuExpenseBtn:hover
+{
+    text-decoration: none;
+    border: none;
+    color: #ffffff;
+    border: none;
+    background-color:#ffa31a;
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#mainMenuBilansBtn
+{
+    background-color: #ff471a;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+    transition: transform 0.4s ease-in-out;
+}
+#mainMenuBilansBtn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    background-color:#f04b22;
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+#mainMenuPropBtn
+{
+    background-color: #ff3333;
+    border: none;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 30px;
+    transition: transform 0.4s ease-in-out;
+}
+#mainMenuPropBtn:hover
+{
+    text-decoration: none;
+    border: none;
+    color: #ffffff;
+    background-color:#f84646;
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.IncomeBlank,
+.ExpenseBlank
+{
+    background-image: url('img/dark.png');
+    padding: 15px;
+    width: 100%;
+    min-height: 575px;
+    margin-top: 0px;
+    font-size: 22px;
+    margin-right: 0px;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin-bottom: 10px;
+}
+
+.formFormatIncome
+{
+    margin-top: 20px;
+    
+}
+.formFormatExpense
+{
+    margin-top:22px;
+}
+
+#incomeBtn
+{
+    width: 280px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    background-color:  #330000;
+    padding: 15px;
+    font-size: 20px;
+    transition: transform 0.4s ease-in-out;
+    border: none;
+}
+
+#incomeBtn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#552222;
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+.ui-datepicker {
+	background-color: #fff;
+	border: 1px solid rgb(5, 22, 36);
+	border-radius: 4px;
+	box-shadow: 0 0 8px rgba(5, 15, 24, 0.74);
+	display: none;
+	margin-top: 4px;
+	padding: 10px;
+    width: 240px;
+    font-family: 'Bai Jamjuree';
+    color: rgb(17, 14, 14);
+    transition: transform 0.4s ease-in-out;
+    
+}
+.ui-datepicker a,
+.ui-datepicker a:hover {
+    text-decoration: none;
+    color: #080808c2;
+}
+.ui-datepicker a:hover,
+.ui-datepicker td:hover a {
+	color: #131516c2;
+	-webkit-transition: color 0.1s ease-in-out;
+	   -moz-transition: color 0.1s ease-in-out;
+	     -o-transition: color 0.1s ease-in-out;
+	        transition: color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-header {
+	margin-bottom: 0px;
+    text-align: center;
+    
+}
+.ui-datepicker .ui-datepicker-title {
+	font-weight: 700;
+}
+.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next {
+	cursor: default;
+	font-family: 'Bai Jamjuree';
+	-webkit-font-smoothing: antialiased;
+	font-style: normal;
+	font-weight: normal;
+	height: 20px;
+	line-height: 1;
+	margin-top: 2px;
+	width: 30px;
+}
+.ui-datepicker .ui-datepicker-prev {
+	float: left;
+	text-align: left;
+}
+.ui-datepicker .ui-datepicker-next {
+	float: right;
+	text-align: right;
+}
+.ui-datepicker .ui-datepicker-prev:before {
+	content: "";
+}
+.ui-datepicker .ui-datepicker-next:before {
+	content: "";
+}
+.ui-datepicker .ui-icon {
+	display: none;
+}
+.ui-datepicker .ui-datepicker-calendar {
+  table-layout: fixed;
+	width: 100%;
+}
+.ui-datepicker .ui-datepicker-calendar th,
+.ui-datepicker .ui-datepicker-calendar td {
+	text-align: center;
+	padding: 4px 0;
+}
+.ui-datepicker .ui-datepicker-calendar td {
+	border-radius: 4px;
+	-webkit-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	   -moz-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	     -o-transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+	        transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
+.ui-datepicker .ui-datepicker-calendar td:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-calendar td a {
+	text-decoration: none;
+}
+.ui-datepicker .ui-datepicker-current-day {
+	background-color: #272b30c2;
+}
+.ui-datepicker .ui-datepicker-current-day a {
+	color: #fff;
+}
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-unselectable:hover {
+	background-color: #fff;
+	cursor: default;
+}
+
+.alert
+{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.modal-content
+{
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+
+.modal-header
+{
+    color: white;
+    text-align: center;
+    background-color: #f3680ce7; 
+}
+.modal-body
+{
+    text-decoration: none;
+    margin-left: auto;
+    margin-left: auto;
+
+
+}
+
+#bilansBtn
+{
+    width: 90%;
+    padding: 10px;
+    background-color: #c90721e7;
+    font-size: 20px;
+    border: none;
+    margin-left: -30px;
+    margin-top:10px;
+    transition: transform 0.4s ease-in-out;
+}
+
+#bilansBtn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    background-color:#f5102ed7;
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+.mainReg,
+.mainBilans
+{
+    display:flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    -webkit-align-content: stretch;
+    align-content: stretch;
+    
+}
+
+.bilansBlank
+{
+    background-image: url('img/dark.png');
+    min-height: 300px;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-right: 0px;
+    color: white;
+    font-family: 'Bai Jamjuree', sans-serif;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+h3
+{
+    text-align: center;
+    padding: 10px;
+}
+
+.bilansTable
+{
+    background-color: #ffffff;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid rgb(5, 22, 36);
+    border-radius: 4px;
+    margin-bottom: 25px;
+}
+.summary
+{
+    background-color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid rgb(5, 22, 36);
+    border-radius: 4px;
+    color: black;
+    margin-bottom: 30px;
+
+}
+
+#sumJumbo
+{
+    background-color:  #ccccb3;
+    font-size: 18px;
+    color: black;
+    text-align: center;
+}
+
+.selectDate
+{
+    background-image: url('img/dark.png');
+    padding: 15px;
+    width: 100%;
+    height: 150px;
+    margin-top: 25px;
+    font-size: 17px;
+    margin-right: 0px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+
+
+#diffBilansBtn
+{
+    background-color: #e68a00;
+    margin-top: 30px;
+    border: none;
+    padding: 15px;
+    font-size: 30px;
+    transition: transform 0.4s ease-in-out;
+}
+#diffBilansBtn:hover
+{
+    text-decoration: none;
+    color: #ffffff;
+    border: none;
+    background-color:#ff9900;
+    -webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.formFormatDffBilans
+{
+    margin-bottom: 30px;
+}
+
+#options
+{
+    font-size: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: #cccc0a;
+}
+
+#chart_div
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
